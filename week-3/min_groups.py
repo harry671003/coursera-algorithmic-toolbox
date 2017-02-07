@@ -41,7 +41,7 @@ def test():
     max_segment_length = 1
 
     print_sep()
-    
+
     groups = min_groups(test_points[0], max_segment_length)
     print(groups)
     print_sep()

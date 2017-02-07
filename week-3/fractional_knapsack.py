@@ -59,20 +59,20 @@ def test():
     """ Test function """
     items = [
         {
-            "w": 4,
-            "v": 20
+            "w": 20,
+            "v": 60
         },
         {
-            "w": 3,
-            "v": 18
+            "w": 50,
+            "v": 100
         },
         {
-            "w": 2,
-            "v": 14
+            "w": 30,
+            "v": 120
         },
     ]
 
-    max_value = 7
+    max_value = 50
 
     knapsack = fkn(items, max_value)
     print(json.dumps(knapsack, indent=2))
